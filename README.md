@@ -4,4 +4,7 @@
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+REAL-TIME STOCK INTEGRATION API INTEGRATION/
+├── src/
+│   └── main.py
+└── readme.md
