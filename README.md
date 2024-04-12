@@ -5,12 +5,6 @@
 
 This documentation guides you through the powerful API that allows you to seamlessly integrate live stock data into your applications, empowering you to build innovative financial tools and experiences.
 
-```
-/
-├── src/
-│   └── main.py
-└── readme.md
-```
 
 ## Agents Used in our Project
 
@@ -23,6 +17,15 @@ This documentation guides you through the powerful API that allows you to seamle
 - Python
 - Fetch.ai uAgent Library
 - Yahoo Finance
+
+#
+
+```
+/
+├── src/
+│   └── main.py
+└── readme.md
+```
 
 ## Getting Started
 
