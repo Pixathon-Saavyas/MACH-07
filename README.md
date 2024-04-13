@@ -55,8 +55,8 @@ To run the project and its agents:
 
 ```
 git clone https://github.com/Pixathon-Saavyas/MACH-07.git
-cd MACH-07/src
-pip install -r requirements.txt
+cd MACH-07/src/
+pip install -r requirement.txt 
 python agent.py
 ```
 
@@ -64,8 +64,8 @@ python agent.py
 
 ```
 
-    Sahyan Ali (https://github.com/0xSyhn) [Team Leader]
-    Palaash Naik (https://github.com/palaashnaik)
-    Travis Fernandes (https://github.com/travis2319)
+   1. Sahyan Ali (https://github.com/0xSyhn) [Team Leader]
+   2. Palaash Naik (https://github.com/palaashnaik)
+   3. Travis Fernandes (https://github.com/travis2319)
 
 ```
