@@ -3,7 +3,7 @@
 
 ## Project Information
 
-Invest with confidence! This agent will analyze the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api
+Invest with confidence! This agent will analyze the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api. 
 
 ### BUSINESS MODEL: 
 
@@ -59,7 +59,7 @@ Invest with confidence! This agent will analyze the given stock, providing buy/h
 
 ### Step 3: Run project
 
-To run the project and its agents:
+To run the project locally:
 
 ```
 git clone https://github.com/Pixathon-Saavyas/MACH-07.git
