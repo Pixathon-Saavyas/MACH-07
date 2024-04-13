@@ -1,16 +1,15 @@
 
-# REAL-TIME STOCK INTEGRATION  API INTEGRATION 🤑
+# REAL-TIME STOCK API INTEGRATION 🤑
 
 ## Project Information
 
-This documentation guides you through the powerful API that allows you to seamlessly integrate live stock data into your applications, empowering you to build innovative financial tools and experiences.
+Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator
 
 
 ## Agents Used in our Project
 
-1. User Agent
-   - Takes the users input and send to agent
-2.
+1. Stock_Agent
+   - Takes the users input and send to agent an
 
 ## TechStack Used
 
@@ -51,4 +50,15 @@ To run the project and its agents:
 ```
  cd src
  python agent.py
+```
+
+
+## Contibutors:
+
+```
+
+    Sahyan Ali (https://github.com/0xSyhn) [Team Leader]
+    Palaash Naik (https://github.com/palaashnaik)
+    Travis Fernandes (https://github.com/travis2319)
+
 ```
