@@ -67,15 +67,15 @@ python agent.py
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/1.jpg?token=GHSAT0AAAAAACQA7QE4FTIJXHF6E3UEWC7OZQ2DQOQ)
+![App Screenshot](/outputs/1.jpg)
 
-![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/2.jpg?token=GHSAT0AAAAAACQA7QE5QYYETODOLETXKL5CZQ2DQRQ)
+![App Screenshot](/outputs/2.jpg)
 
-![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/3.jpg?token=GHSAT0AAAAAACQA7QE4IAWYMOCGCHNHXJ4GZQ2DQUA)
+![App Screenshot](/outputs/3.jpg)
 
-![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/4.jpg?token=GHSAT0AAAAAACQA7QE5BGAGGOSBBBDVTQCWZQ2DQXA)
+![App Screenshot](/outputs/4.jpg)
 
-![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/5.jpg?token=GHSAT0AAAAAACQA7QE42HN4K4P2DH73LCAIZQ2DQZQ)
+![App Screenshot](/outputs/5.jpg)
 
 
 
@@ -83,7 +83,7 @@ python agent.py
 
 ```
 
-   1. Sahyan Ali (https://github.com/0xSyhn) [Team Leader]
+   1. Sayhan Ali (https://github.com/0xSyhn) [Team Leader]
    2. Palaash Naik (https://github.com/palaashnaik)
    3. Travis Fernandes (https://github.com/travis2319)
 
