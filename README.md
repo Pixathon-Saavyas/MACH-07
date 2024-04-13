@@ -1,9 +1,14 @@
 
-# REAL-TIME STOCK API INTEGRATION 🤑
+# REAL-TIME STOCK PRICE & ANALYSIS 🤑
 
 ## Project Information
 
-Invest with confidence! This agent will analyzes the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api
+Invest with confidence! This agent will analyze the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api
+
+### APPLICATION AS A BUSINESS MODEL: 
+
+
+ 
 
 
 ## Agents Used in our Project
@@ -59,6 +64,20 @@ cd MACH-07/src/
 pip install -r requirement.txt 
 python agent.py
 ```
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/1.jpg?token=GHSAT0AAAAAACQA7QE4FTIJXHF6E3UEWC7OZQ2DQOQ)
+
+![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/2.jpg?token=GHSAT0AAAAAACQA7QE5QYYETODOLETXKL5CZQ2DQRQ)
+
+![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/3.jpg?token=GHSAT0AAAAAACQA7QE4IAWYMOCGCHNHXJ4GZQ2DQUA)
+
+![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/4.jpg?token=GHSAT0AAAAAACQA7QE5BGAGGOSBBBDVTQCWZQ2DQXA)
+
+![App Screenshot](https://raw.githubusercontent.com/Pixathon-Saavyas/MACH-07/main/outputs/5.jpg?token=GHSAT0AAAAAACQA7QE42HN4K4P2DH73LCAIZQ2DQZQ)
+
+
 
 ## Contibutors: 👨🏻‍💻
 
