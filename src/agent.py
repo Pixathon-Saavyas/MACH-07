@@ -8,9 +8,8 @@ RAPIDAPI_KEY = "90f24439b1msh50500c9ea2ed3e1p1264fajsnb16b3ac534f8"
 RAPIDAPI_HOST = "yahoo-finance127.p.rapidapi.com"
 
 async def get_stock_data(symbol):
-    """
-    Fetches historical stock data for the given symbol using the Yahoo Finance API.
-    """
+
+    #Fetches historical stock data for the given symbol using the Yahoo Finance API.    
     url = f"https://yahoo-finance127.p.rapidapi.com/search/{symbol}"
     headers = {
         "X-RapidAPI-Key": RAPIDAPI_KEY,
@@ -22,7 +21,7 @@ async def get_stock_data(symbol):
         response.raise_for_status()  # Raise an exception if the request was unsuccessful
         data = response.json()
         
-        if "quotes" in data:
+        if "quotes" in data: 
             stock_data = {}
             for quote in data["quotes"]:
                 date = quote["date"]
@@ -34,31 +33,29 @@ async def get_stock_data(symbol):
                     "volume": float(quote["volume"])
                 }
             return stock_data
-        elif "error" in data:
+        elif "error" in data: 
             print(f"Error fetching data for {symbol}: {data['error']}")
             return None
         else:
             print(f"Unexpected response format for {symbol}: {data}")
             return None
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e: # exception statement
         print(f"Error fetching data for {symbol}: {e}")
         return None
 
 stock_protocol = Protocol("stockProtocol")
 
 class StockInfo(Model):
-    """
-    Model to represent stock data.
-    """
+   # Model to represent stock data.
     symbol: str
     price: Optional[str]
     change: Optional[str]
 
 @stock_protocol.on_message(model=StockInfo, replies=UAgentResponse)
 async def on_message(ctx: Context, sender: str, msg: StockInfo):
-    """
-    Handles user messages containing stock ticker symbols.
-    """
+    
+    #Handles user messages containing stock ticker symbols.
+    
     ctx.logger.info(f"Received message from {sender}: {msg.symbol}")
 
     try:
