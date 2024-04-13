@@ -3,7 +3,7 @@
 
 ## Project Information
 
-Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator
+Invest with confidence! This agent will analyzes the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api
 
 
 ## Agents Used in our Project
@@ -11,7 +11,7 @@ Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recom
 1. Stock_Agent
    - Takes the users input and send to agent an
 
-## TechStack Used
+## TechStack Used 📚
 
 - Python
 - Fetch.ai uAgent Library
@@ -32,7 +32,7 @@ Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recom
 └── readme.md
 ```
 
-## Getting Started
+## Getting Started 🚀
 
 ### Step 1: Obtaining API Keys
 
@@ -54,12 +54,13 @@ Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recom
 To run the project and its agents:
 
 ```
- cd src
- python agent.py
+git clone https://github.com/Pixathon-Saavyas/MACH-07.git
+cd MACH-07/src
+pip install -r requirements.txt
+python agent.py
 ```
 
-
-## Contibutors:
+## Contibutors: 👨🏻‍💻
 
 ```
 
