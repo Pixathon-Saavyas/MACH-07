@@ -5,16 +5,19 @@
 
 Invest with confidence! This agent will analyze the given stock, providing buy/hold/sell recommendations based on their price, volume, trends and technical indicator using yahoo finance api
 
-### APPLICATION AS A BUSINESS MODEL: 
+### BUSINESS MODEL: 
 
+ - The market for financial data is crowded. Standing out requires in-depth analysis and valuable insights.
+- Investors need access to the latest stock prices to make informed decisions.Real-time data allows them to react quickly to market fluctuations.
+ - Users are able to decide whether to buy more or sell shares based on the analysis provided by the recommender.
 
- 
 
 
 ## Agents Used in our Project
 
-1. Stock_Agent
-   - Takes the users input and send to agent an
+#### Stock_Agent
+   - The agent asks the user which stock they want to enquire about. then ask them if they have the stock if yes, then the agent asks them the quantity or ask them how much stock are they interested in buying .
+   - The agent then fetches the data about the stock through the Yahoo Finance API, analyzes and predicts the future trend using stockProtocol agent and then gives a detailed description of the stock.
 
 ## TechStack Used 📚
 
