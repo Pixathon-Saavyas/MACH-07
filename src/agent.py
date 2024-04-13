@@ -4,7 +4,7 @@ from uagents import Agent, Context, Protocol, Model
 from pydantic import Field
 
 # Yahoo Finance API parameters
-RAPIDAPI_KEY = "90f24439b1msh50500c9ea2ed3e1p1264fajsnb16b3ac534f8"
+RAPIDAPI_KEY = "<RAPIDAPI_KEY>"
 RAPIDAPI_HOST = "yahoo-finance127.p.rapidapi.com"
 
 async def get_stock_data(symbol):

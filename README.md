@@ -23,6 +23,12 @@ Invest with confidence! This tool analyzes stocks, providing buy/hold/sell recom
 /
 ├── src/
 │   └── main.py
+├── outputs/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   └── 5.jpg
 └── readme.md
 ```
 
